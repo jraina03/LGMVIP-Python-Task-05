@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatBOT</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/static/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="message-container" id="messageContainer"></div>
+
+    <form id="messageForm">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" id="messageInput" placeholder="Type your message here...">
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="submit" id="sendBtn">Send</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="/static/scripts.js"></script>
+</body>
+</html>
